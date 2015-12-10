@@ -2,6 +2,6 @@ build_image: drydock/u14pytpls:prod
 python:
   - "2.7"
 language: python
-install: pip install --use-mirrors -r requirements.txt
+install: pip install -r requirements.txt
 script:
   - python sqliteSample.py
